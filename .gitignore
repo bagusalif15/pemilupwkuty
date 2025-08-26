@@ -1,0 +1,23 @@
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore PHP files (since we're converting to static)
+*.php
+
+# Ignore composer files
+composer.json
+composer.lock
+vendor/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# Ignore log files
+*.log
